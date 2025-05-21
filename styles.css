@@ -1,0 +1,28 @@
+/* ...existing code... */
+#ai-chatbot-container {
+    position: relative;
+    display: inline-block;
+}
+
+#ai-chatbot-icon {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+#ai-chatbot-popup {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 200px;
+    z-index: 1000;
+}
+
+.hidden {
+    display: none;
+}
+/* ...existing code... */

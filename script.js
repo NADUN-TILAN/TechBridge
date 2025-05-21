@@ -1,0 +1,6 @@
+// ...existing code...
+document.getElementById('ai-chatbot-icon').addEventListener('click', function () {
+    const popup = document.getElementById('ai-chatbot-popup');
+    popup.classList.toggle('hidden');
+});
+// ...existing code...
